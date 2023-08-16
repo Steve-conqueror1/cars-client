@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "help": "node dist/help.js",
+    "list": "node dist/index.js --list",
+    "sort": "node dist/index.js",
+    "delete": "node dist/index.js",
+    "add": "node dist/index.js  --addCar",
+    "build": "tsc",
+    "prettier": " prettier --write ."
+  },
+  "author": "steve",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.5.0",
+    "@types/prompt-sync": "^4.2.0",
+    "@types/yargs": "^17.0.24",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "prettier": "^3.0.2",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^17.7.2"
+  }
+}
